@@ -1,0 +1,112 @@
+.button {
+    background-color: cadetblue;
+    border: 1px black;
+    border-radius: 10%;
+    color: white;
+}
+
+.button:hover {
+    background-color: coral;
+    color: black;
+}
+
+.email:focus {
+    background-color: green;
+   
+}
+
+.i {
+    background-color: blueviolet;
+}
+
+#first-para {
+    color:coral;
+    background-color: blue;
+}
+#first-para::first-line {
+    font-style: italic;
+    font-size: 25px;
+    color: brown;
+
+}
+
+#first-para::first-letter {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+::selection{
+    color: red;
+    background: yellowgreen;
+
+}
+
+/* target*/
+a[target] {
+    color:blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a[target="_top"] {
+    color: orange;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+/*  margin*/
+
+.margin-div {
+    background-color:green;
+}
+
+.margin-p {
+    background-color: purple;
+    margin: 30px 40px 30px 50px;
+    padding: 50px 10px;
+    
+}
+
+/* display  */
+.display-div {
+    background-color: blue;
+}
+
+.display-p {
+    background-color: aquamarine;
+    display: inline-block;
+    height: 300px;
+    width: 500px;
+}
+
+.display-a {
+    background-color:yellowgreen;
+    display: block;
+    height: 200px;
+}
+/*  flex*/
+
+.flex-div {
+    background-color: darkmagenta;
+    display: flex;
+}
+
+.flex-p {
+    background-color: lime;
+}
+
+/* grid*/
+
+.grid-div {
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: auto auto auto;  /*auto auto auto will adjust space automaitically in screen */
+}
+
+.grid-p {
+    background-color: darkviolet;
+    border: 1px solid black;
+    
+}
